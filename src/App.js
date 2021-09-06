@@ -5,7 +5,17 @@ import Estado from './components/Estado';
 import './App.css';
 import RenderizadoCondicional from './components/RederizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
-import Eventos from './components/Eventos';
+import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos';
+import ComunicacionComponentes from './components/ComunicacionComponentes';
+import CicloVida from './components/CicloVida';
+import AjaxApis from './components/AjaxApis';
+import ContadorHooks from './components/ContadorHooks';
+import ScrollHooks from './components/ScrollHooks';
+import RelojHooks from './components/RelojHooks';
+import AjaxHooks from './components/AjaxHooks';
+import HooksPersonalizados from './components/HooksPersonalizados';
+import Referencias from './components/Referencias';
+import Formularios from './components/Formularios';
 
 function App() {
  
@@ -46,7 +56,31 @@ function App() {
           <hr />
           <RenderizadoElementos />
           <hr />
-          <Eventos />
+          <EventosES6 />
+          <hr />
+          <EventosES7 />
+          <hr />
+          <MasSobreEventos />
+          <hr />
+          <ComunicacionComponentes />
+          <hr />
+          <CicloVida />
+          <hr />
+          <AjaxApis />
+          <hr />
+          <ContadorHooks titulo="Seguidores" />
+          <hr />
+          <ScrollHooks />
+          <hr />
+          <RelojHooks />
+          <hr />
+          <AjaxHooks />
+          <hr />
+          <HooksPersonalizados />
+          <hr />
+          <Referencias />
+          <hr />
+          <Formularios />
       </section>
        
       </header>
